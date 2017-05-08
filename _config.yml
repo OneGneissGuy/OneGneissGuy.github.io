@@ -17,7 +17,7 @@ title: John Franco Saraceno
 email: jfsaraceno@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is my personal website that I built with Jekyll and is hosted on GitHub pages.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/about" # the subpath of your site, e.g. /blog
 url: "https://onegneissguy.github.io" # "localhost:4000"#the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jfsaraceno
 github_username:  OneGneissGuy
