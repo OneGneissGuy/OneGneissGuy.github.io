@@ -24,11 +24,10 @@ github_username:  OneGneissGuy
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-midnight
+theme: minima
 gems:
   - jekyll-feed
-  - jekyll-theme-midnight
 exclude:
   - Gemfile
   - Gemfile.lock
-  - vendor/bundle #https://github.com/jekyll/jekyll/issues/2938
+
