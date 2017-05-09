@@ -16,7 +16,7 @@
 title: John Franco Saraceno
 email: jfsaraceno@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is my personal website that I built with Jekylland is hosted on GitHub pages.
+  This is my personal website that I built with Jekyll and is hosted on GitHub pages.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://onegneissguy.github.io" # "localhost:4000"#the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jfsaraceno
@@ -24,10 +24,20 @@ github_username:  OneGneissGuy
 
 # Build settings
 markdown: kramdown
+
 theme: minima
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+scholar:
+  style: apa
+  locale: en
 
+  sort_by: year
+  order: descending
+
+  source: ./_publications
+  bibliography: publications
+  bibliography_template: "{{reference}}"
