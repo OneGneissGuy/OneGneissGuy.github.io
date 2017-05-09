@@ -17,4 +17,4 @@ I believe the only real thing in life that we can control is our attitude so I'm
 Source code for this repository can be [here](https://OneGneissGuy/onegneissguy.github.io)
 
 A vista of Maui from Honokohau Bay, Kailua-Kona, Hawaii, 2014.
-![a nice image]({{ https://onegneissguy.github.io}}/assets/beach.jpg)
+![a nice image]({{ https://onegneissguy.github.io}}/images/beach.jpg)
