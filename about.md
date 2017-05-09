@@ -14,5 +14,7 @@ When time permits, I fly R/C UAV's, go camping or more often than not, go on a j
 
 I believe the only real thing in life that we can control is our attitude so I'm always working to improve it. I'll be the first to admit that I fall short of this goal on many a days.
 
+Source code for this repository can be [here](https://OneGneissGuy/onegneissguy.github.io)
+
 ![a nice image]({{ https://onegneissguy.github.io}}/assets/beach.jpg)
 A vista of Maui from Honokohau Bay, Kailua-Kona, 2014.
