@@ -1,0 +1,1 @@
+## Inkjet printer teardown
