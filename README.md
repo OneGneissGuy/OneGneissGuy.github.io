@@ -1,2 +1,2 @@
 # This is the readme for my GitHub page.
-Go to my [page](https://onegneissguy.github.io) to check it out!
+Go to my [page](https://www.github.com/onegneissguy) to check it out my contributions!
