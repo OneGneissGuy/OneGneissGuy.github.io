@@ -1,4 +1,5 @@
-# This is the readme for my GitHub page.
-Go to my [page](https://onegneissguy.github.io) to check it out!
-![a nice image]({{ https://onegneissguy.github.io}}/images/beach.jpg)
+# Welcome to my GitHub page.
+
+Go [here](https://onegneissguy.github.io/about) to learn more about me and what I do.
+Check out my GitHub contributions [here](https://github.com/OneGneissGuy/)
 
