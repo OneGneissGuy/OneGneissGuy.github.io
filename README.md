@@ -2,7 +2,7 @@
 
 I post about electronics and software projects that I work on in my daily life. I'll typically write about electronics like  environmental sensors, microcomputers (ala Raspberri Pi and Arduino) and remote control and autonomous (drones) planes, helicopters and quadcopters.   
 
-I'll also post write about my forays in data science using Python and R.
+I'll also post write about my forays into data science using Python and R.
 
 You can check out my GitHub contributions [here](https://github.com/OneGneissGuy/).
 
