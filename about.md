@@ -1,9 +1,3 @@
----
-layout: page
-title: About Me
-permalink: /about/
----
-
 My name is John Franco Saraceno. I'm a trained scientist and amateur maker.
 
 I'm from the San Francisco Bay area and moved up to Sacramento to attend college in 2005. I have a B.S. in Geology from U.C. Davis and a M.S. in Geology from Sacramento State. I'm a hydrologist with the [U.S. Geological Survey](https://www.usgs.gov) and work with water quality sensors.
