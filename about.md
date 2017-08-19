@@ -9,4 +9,4 @@ When time permits, I fly R/C UAV's, tinker in my electronics shop or more often 
 Source code for this repository can be [here](https://www.github.com/OneGneissGuy/onegneissguy.github.io)
 
 A vista of Maui from Honokohau Bay, Kailua-Kona, Hawaii, 2014.
-![a nice image]({{ https://onegneissguy.github.io}}/images/beach.jpg)
+![Kailua-Kona]({{ https://onegneissguy.github.io}}/images/beach.jpg)
