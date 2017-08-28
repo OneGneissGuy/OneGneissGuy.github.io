@@ -1,4 +1,4 @@
-Email: jfsaraceno@gmail.com
+jfsaraceno@gmail.com
 
 [Github](https://github.com/OneGneissGuy)
 
