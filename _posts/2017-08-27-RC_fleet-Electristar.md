@@ -1,8 +1,6 @@
-###R/C Fleet
+# Airplane
 
-##Airplane
-
-#Hobbico Electristar EP Select
+## Hobbico Electristar EP Select
 
 Airframe: .40 Traditional high-wing trainer
 
