@@ -19,6 +19,7 @@ Motor: .46 RimFire Brushless Outrunner
 ESC: Castle Creations ICE 100
 
 Battery: 5S 4400 mAh Lipo
+
 Propeller: APC Electric 11x7
 
 Servos: Hitec HS-422 standard servos
