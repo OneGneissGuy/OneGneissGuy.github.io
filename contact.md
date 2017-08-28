@@ -1,3 +1,3 @@
-email:jfsaraceno@gmail.com
+email: jfsaraceno@gmail.com
 
-twitter:@jfsaraceno
+twitter: @jfsaraceno
