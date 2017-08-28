@@ -1,8 +1,18 @@
 # Airplane
 
-## Hobbico Electristar EP Select
+## [Hobbico Electristar EP Select](http://www.rcuniverse.com/magazine/article_display.cfm?article_id=821)
 
 Airframe: .40 Traditional high-wing trainer
+
+*Wingspan: 63 in (1600 mm)
+
+-Wing Area: 709 sq in (45.7 dm2)
+
+-Weight: 6-6.5 lb (2720-2950 g)
+
+-Wing Loading: 19-21 oz/ft2 (59-64 g/dm2)
+
+-Length: 53 in (1345 mm)
 
 Motor: .46 RimFire Brushless Outrunner
 
@@ -12,17 +22,6 @@ Battery: 5S 4400 mAh Lipo
 
 Servos: 
 
-1) Hitec HS-311 standard servos (aileron and elevator)
-2) Futaba standard servos (rudder)
+Hitec HS-422 standard servos
 
-Specifications:
 
-Wingspan: 63 in (1600 mm)
-
-Wing Area: 709 sq in (45.7 dm2)
-
-Weight: 6-6.5 lb (2720-2950 g)
-
-Wing Loading: 19-21 oz/ft2 (59-64 g/dm2)
-
-Length: 53 in (1345 mm)
