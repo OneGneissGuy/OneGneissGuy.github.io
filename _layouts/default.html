@@ -44,7 +44,7 @@
           <p>{{ site.description | default: site.github.project_tagline }}</p>
                     
           <hr>
-          <span class="credits right">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+          
         </div>
 
         {{ content }}
@@ -53,12 +53,12 @@
 
     </div> <!--end wrapper-->
 
-    <!-- <div class="footer">
+    <div class="footer">
       <section>
-          
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span> -->
-      <!-- </section>  -->
-    <!-- </div> --><!-- end footer -->
+          <span class="credits right">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+          <!-- <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span> -->
+      </section> 
+    </div><!-- end footer -->
 
     {% if site.google_analytics %}
       <script type="text/javascript">
