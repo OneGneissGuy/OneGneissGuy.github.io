@@ -13,7 +13,7 @@ Motor mount: Great Planes Brushless Motor Mount Medium Motors
 
 ESC: Hyperion Atlas 45A with linear BEC
 
-Propeller: 5.25 x 4.75
+Propeller: 6 x 4
 
 Battery:  3S 3300mAh LiPo
 
