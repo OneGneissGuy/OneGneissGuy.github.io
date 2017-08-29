@@ -53,10 +53,19 @@ section {
 
 .links-container {
   display: inline-flex;
+  align-items: flex-end;
 }
 
-.links {
+.links, .link-re, .link-gh {
   padding: 10px;
+}
+
+.link-gh {
+  font-size: 15px;
+}
+
+.link-re {
+  font-size: 12px;
 }
 
 
