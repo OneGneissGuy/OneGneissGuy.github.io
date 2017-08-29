@@ -6,13 +6,130 @@
   background: none;
 }
 
+section #title {
+  margin-bottom: 30px;
+}
+
 .header-buttons {
   display: flex;
   justify-content: space-between;
+}
+
+.header-buttons li a {
+  width: 60px;
+  min-width: 30px;
 }
 
 p img {
   padding: 3px;
   background-color: darkgray;
   border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+}
+
+.credits {
+  vertical-align: super;
+}
+
+section {
+  align-content: center;
+  max-width: 100%;
+}
+
+.posts {
+  margin: auto;
+  width: 100%;
+  border: 1px solid #90a959;
+  border-radius: 3px;
+  padding: 20px 10px 10px 10px;
+  margin-bottom: 40px;
+  text-align: left;
+  box-shadow: 10px 5px 5px black;
+}
+
+.posts ul {
+  padding-left: 25px;
+}
+
+.links-container {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.links, .link-re, .link-gh {
+  padding: 10px;
+}
+
+.link-gh {
+  font-size: 15px;
+}
+
+.link-re {
+  font-size: 12px;
+}
+
+
+.footer section {
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.credits { 
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 60%;
+}
+
+@media print, screen and (max-width: 720px) { 
+  #title .credits { 
+    display: block;
+    width: 100%; 
+    line-height: 30px; 
+    text-align: center; 
+  }
+
+  #title .credits .left { 
+    float: none; display: block; 
+  }
+
+  #title .credits .right { 
+    float: none; 
+    display: block; 
+  } 
+
+  .posts { 
+    padding: 20px 10px 10px 0;
+  }
+
+}
+
+@media print, screen and (max-width: 480px) {
+  #header { 
+    margin-top: 2px;
+  }
+
+  nav {
+    display: flex; 
+    justify-content: space-around;
+  }
+
+  ul.header-buttons {
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 100%;
+  }
+
+  #title {
+    margin-bottom: 15px !important;
+  }
+
+  #title h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
