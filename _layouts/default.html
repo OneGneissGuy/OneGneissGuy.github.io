@@ -22,7 +22,7 @@
             <li> <a href="/">Home</a></li>
             <li> <a href="{{ site.baseUrl }}/about">About</a></li>
             <li> <a href="{{ site.baseUrl }}/resume">Resume</a></li>
-            <li> <a href="{{ site.baseUrl }}/contact">Contact</a></li>
+            <!-- <li> <a href="{{ site.baseUrl }}/contact">Contact</a></li> -->
             <li> <a href="{{ site.baseUrl }}/posts">Posts</a></li>
           </ul>
         </nav>
@@ -43,7 +43,24 @@
     <footer>
       <div class="footer">
         <section>
-          <span class="credits">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+          <div class="aligned"> 
+            <span class="credits">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+          </div>
+          <div class="links-container">
+            <a class="links" href="https://drive.google.com/file/d/0B2L5vO5VPcM2TkliZ1QydFJXSVU/view?usp=drivesdk">
+              <i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
+            </a>
+            <a class="links" href="mailto:jfsaraceno@gmail.com">
+              <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+            </a>
+            <a class="links" href="https://www.linkedin.com/in/john-franco-saraceno-7a780751">
+              <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </a>
+            <a class="links" href="{{ site.github.owner_url }}">
+              <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </a> 
+          </div>
+
         </section> 
       </div>
     </footer>
