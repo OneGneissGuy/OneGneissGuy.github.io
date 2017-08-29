@@ -3,16 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-    <!-- [if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
-    <![endif] -->
+    <!-- [if lt IE 9]> -->
+      <!-- <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> -->
+    <!-- <![endif]> -->
+    <!-- [if lt IE 8]> -->
+    <!-- <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}"> -->
+    <!-- <![endif]> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
@@ -27,10 +26,9 @@
             <li> <a href="{{ site.baseUrl }}/posts">Posts</a></li>
           </ul>
         </nav>
-      </div><!-- end header -->
+      </div>
 
     <div class="wrapper">
-
       <section>
         <div id="title">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
@@ -40,23 +38,13 @@
         {{ content }}
 
       </section>
-
-    </div> <!--end wrapper-->
+    </div>
 
     <footer>
-      <div class="foot">
-      {{ site.author }}
-      &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-      {% if page.date %}
-        {{ page.date }}
-      {% else %}
-        {{ site.time | date: '%Y' }}
-      {% endif %}
-      
-        {% if site.url-pretty %}
-        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-        <a href="{{ site.url }}">{{ site.url-pretty }}</a>
-        {% endif %}	
+      <div class="footer">
+        <section>
+          <span class="credits">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+        </section> 
       </div>
     </footer>
 

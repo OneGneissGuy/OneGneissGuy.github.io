@@ -6,6 +6,10 @@
   background: none;
 }
 
+section #title {
+  margin-bottom: 30px;
+}
+
 .header-buttons {
   display: flex;
   justify-content: space-between;
@@ -16,13 +20,40 @@ p img {
   background-color: darkgray;
   border-radius: 4px;
 }
+
 footer {
   text-align: center;
 }
 
-// .credits.right { 
-//   display: none;
-// }
+section {
+  align-content: center;
+  max-width: 100%;
+}
+
+.posts {
+  margin: auto;
+  width: 100%;
+  border: 1px solid #90a959;
+  border-radius: 3px;
+  padding: 10px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  text-align: left;
+  box-shadow: 10px 5px 5px black;
+}
+
+
+.footer section {
+  max-width: 100%;
+}
+
+.credits { 
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 60%;
+}
 
 @media print, screen and (max-width: 720px) { 
   #title .credits { 
