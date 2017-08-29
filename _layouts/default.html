@@ -43,22 +43,22 @@
 
     </div> <!--end wrapper-->
 
-    <div class="footer">
-      <section>
-          <span class="credits right">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-          <!-- <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span> -->
-      </section> 
-    </div><!-- end footer -->
+    <footer>
+      <div class="foot">
+      {{ site.author }}
+      &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+      {% if page.date %}
+        {{ page.date }}
+      {% else %}
+        {{ site.time | date: '%Y' }}
+      {% endif %}
+      
+        {% if site.url-pretty %}
+        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+        <a href="{{ site.url }}">{{ site.url-pretty }}</a>
+        {% endif %}	
+      </div>
+    </footer>
 
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
   </body>
 </html>
