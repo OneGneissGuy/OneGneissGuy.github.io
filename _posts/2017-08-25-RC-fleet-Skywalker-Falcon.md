@@ -9,6 +9,8 @@ Airframe:
 
 Motor: E-flite Six-Series 28mm 2700kV brushless inrunner 
 
+Motor mount: Great Planes Brushless Motor Mount Medium Motors
+
 ESC: Hyperion Atlas 45A with linear BEC
 
 Propeller: 5.25 x 4.75
