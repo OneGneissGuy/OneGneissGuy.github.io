@@ -44,11 +44,14 @@ section {
   width: 100%;
   border: 1px solid #90a959;
   border-radius: 3px;
-  padding: 10px;
-  padding-top: 20px;
+  padding: 20px 10px 10px 10px;
   margin-bottom: 40px;
   text-align: left;
   box-shadow: 10px 5px 5px black;
+}
+
+.posts ul {
+  padding-left: 25px;
 }
 
 .links-container {
@@ -89,13 +92,20 @@ section {
     line-height: 30px; 
     text-align: center; 
   }
+
   #title .credits .left { 
     float: none; display: block; 
   }
+
   #title .credits .right { 
     float: none; 
     display: block; 
   } 
+
+  .posts { 
+    padding: 20px 10px 10px 0;
+  }
+
 }
 
 @media print, screen and (max-width: 480px) {
