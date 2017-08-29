@@ -13,7 +13,7 @@ ESC: Hyperion Atlas 45A with linear BEC
 
 Propeller: 5.25 x 4.75
 
-Battery:  3S 2200mAh LiPo
+Battery:  3S 3300mAh LiPo
 
 Receiver: Optima 7
 
