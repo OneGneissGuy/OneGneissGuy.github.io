@@ -2,6 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+ul {
+  list-style-image: none;
+}
+
 #header nav {
   background: none;
 }
