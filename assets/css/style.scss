@@ -4,9 +4,17 @@
 @import "{{ site.theme }}";
 
 ul { 
-  // list-style-image: url("../images/bullet.png");
   list-style-image: none; 
+  // list-style-image: url("../images/bullet.png");
+  display: inline-block;  
+  list-style-position:inside;
 }
+
+li a {
+  display: inline-block;  
+}
+
+
 
 #header nav {
   background: none;
