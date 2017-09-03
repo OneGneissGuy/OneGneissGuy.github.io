@@ -15,6 +15,6 @@ I post about electronics and software projects that I work on in my daily life. 
 
 I'll also post about my forays into data science using Python and R.
 
-You can check out my GitHub contributions [here](https://github.com/OneGneissGuy/).
+Check out my [GitHub]({{ site.github.owner_url }}) contributions.
 
-Go [here](https://onegneissguy.github.io/about) to learn more about me and what I do.
+Learn more [about]({{ site.baseUrl }}/about) me.
