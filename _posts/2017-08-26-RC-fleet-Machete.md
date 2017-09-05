@@ -27,4 +27,3 @@ LED's:
 
 * Neopixel 8 LED stick 
 
-![Machete]({{ site.baseurl }}/images/machete-6s.jpg)
