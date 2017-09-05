@@ -26,3 +26,5 @@ LED's:
 * Neopixel 12 LED Rings (2X) 
 
 * Neopixel 8 LED stick 
+
+![Machete]({{ site.baseurl }}/images/machete-6s.jpg)
