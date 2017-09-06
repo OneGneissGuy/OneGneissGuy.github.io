@@ -28,4 +28,4 @@ LED's:
 
 *Machete after completing first stable flight*
 
-![machete]({{ site.baseurl }}/images/machete_1.jpg) 
+![machete]({{ site.baseurl }}/images/machete_1.jpg "Machete") 
