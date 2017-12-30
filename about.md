@@ -6,7 +6,7 @@ I love finding out how things work by tearing them down (and sometimes putting t
 
 When time permits, I fly R/C UAV's, tinker in my electronics shop or more often than not, go on a jog with my [Catahoula](https://en.wikipedia.org/wiki/Catahoula_Cur) on the American River. 
 
-I also enjoy travelingtraveling and have had the opportunity to visit many great places as part of my job.
+I also enjoy traveling and have had the opportunity to visit many great places as part of my job.
 
-# A vista of Maui from Honokohau Bay, Kailua-Kona, Hawaii, 2014:
-![Kailua-Kona]({{ site.baseurl }}/images/beach.jpg)
+# Here are some of the places that I've been able to visit while working at the USGS over the last ten years.
+![Locations]({{ site.baseurl }}/images/places.png)
