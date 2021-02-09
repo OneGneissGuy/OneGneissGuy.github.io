@@ -67,7 +67,7 @@ collections:
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
       Welcome to the blog
-    feature_image: "https://picsum.photos/800/600"
+    feature_image: "https://picsum.photos/1300/400?image=989"
 
 # 6. Jekyll collections settings
 defaults:
