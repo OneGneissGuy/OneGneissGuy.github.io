@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: Home
 feature_text: |
   ## JohnFranco Saraceno
   Scientist. Maker. Programmer.
