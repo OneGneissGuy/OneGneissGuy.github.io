@@ -1,1 +1,8 @@
-## Here you'll be able to read some of my analysis of recent research in my fields of professional study. Stay Tuned!
+---
+title: Research
+indexing: false
+sitemap: false
+---
+
+Read about some of my research here.
+
