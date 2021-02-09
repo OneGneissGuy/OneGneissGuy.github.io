@@ -1,3 +1,12 @@
+---
+title: Skywalker Falcon FPV EPO flying wing 1340mm ARF
+categories:
+- General
+excerpt: |
+
+feature_text: |
+---
+
 [Skywalker Falcon FPV EPO flying wing 1340mm ARF](https://hobbyking.com/en_us/epo-flying-wing-for-fpv.html)
 
 Airframe:

@@ -1,6 +1,14 @@
-# Airplane
 
-## [Hobbico Electristar EP Select](http://www.rcuniverse.com/magazine/article_display.cfm?article_id=821)
+---
+title: Hobbico Electristar EP Select
+categories:
+- General
+excerpt: |
+
+feature_text: |
+---
+
+[Hobbico Electristar EP Select](http://www.rcuniverse.com/magazine/article_display.cfm?article_id=821)
 
 Airframe: .40 Traditional high-wing trainer
 
