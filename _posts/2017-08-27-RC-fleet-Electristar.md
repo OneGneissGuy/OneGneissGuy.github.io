@@ -1,4 +1,3 @@
-
 ---
 title: Hobbico Electristar EP Select
 categories:
@@ -33,3 +32,7 @@ Propeller: APC Electric 11x7
 Servos: Hitec HS-422 standard servos
 
 Receiver: Hitec Optima 7 (2.4 GHz) 7-Channel Receiver
+
+
+
+
