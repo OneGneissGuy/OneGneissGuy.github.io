@@ -120,12 +120,8 @@ navigation_header:
   url: /about/
 - title: Blog
   url: /blog/
-- title: Categories
-  url: /categories/
 - title: Search
   url: /search/
-- title: Fork Me
-  url: https://onegneissguy.github.io
 
 navigation_footer:
 - title: Created by JohnFranco Saraceno
