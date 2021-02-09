@@ -1,69 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
+
   <head>
+    <!-- General meta -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-    <!-- [if lt IE 9]> -->
-      <!-- <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> -->
-    <!-- <![endif]> -->
-    <!-- [if lt IE 8]> -->
-    <!-- <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}"> -->
-    <!-- <![endif]> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% if page.indexing == false %}
+      <meta name="robots" content="noindex">
+    {% endif %}
+
+    {% if page.collectionpage %}
+      {% seo title=false %}
+
+      {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+      <title>{{ collectiondata.title }} - {{ site.title }}</title>
+      <meta property="og:title" content="{{ collectiondata.title }}">
+      <meta name="description" content="{{ collectiondata.description }}">
+      <meta property="og:description" content="{{ collectiondata.description }}">
+    {% else %}
+      {% seo %}
+    {% endif %}
+
+    <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
+    <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
+
+    {% if site.css_inline == true %}
+      {% include site-styles.html %}
+    {% else %}
+      <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    {% endif %}
+
+    {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
+
+    {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
+
+    {% include site-before-start.html %}
   </head>
-  <body>
-      <div id="header">
-        <nav>
-          <ul class="header-buttons">  
-            <li> <a href="/">Home</a></li>
-            <li> <a href="{{ site.baseUrl }}/about">About</a></li>
-            <li> <a href="{{ site.baseUrl }}/research">Research</a></li>
-            <li> <a href="{{ site.baseUrl }}/posts">Posts</a></li>
-            <li> <a href="{{ site.baseUrl }}/travels">Travels</a></li>
-            
-          </ul>
-        </nav>
-      </div>
 
-    <div class="wrapper">
-      <section>
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-        </div>
+  <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+    {% include site-icons.svg %}
 
-        {{ content }}
+    {{ content }}
 
-      </section>
-    </div>
+    {% if site.service_worker != false %}{% include site-sw.html %}{% endif %}
 
-    <footer>
-      <div class="footer">
-        <section>
-          <div class="aligned"> 
-            <span class="credits">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-          </div>
-          <div class="links-container">
-            <a class="link-re" href="https://drive.google.com/file/d/0B2L5vO5VPcM2TkliZ1QydFJXSVU/view?usp=drivesdk" target="_blank">
-              <i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
-            </a>
-            <a class="links" href="mailto:jfsaraceno@gmail.com" target="_blank">
-              <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-            </a>
-            <a class="links" href="https://www.linkedin.com/in/john-franco-saraceno-7a780751" target="_blank">
-              <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-            </a>
-            <a class="link-gh" href="{{ site.github.owner_url }}" target="_blank">
-              <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-            </a> 
-          </div>
-        </section> 
-      </div>
-    </footer>
-
+    {% include site-before-end.html %}
   </body>
+
 </html>
