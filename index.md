@@ -8,7 +8,7 @@ image: "https://picsum.photos/1300/400?image=989"
 #### Welcome :wave:
 
 
-I am John Franco Saraceno. I'm a trained scientist and amateur maker with years of experience building hobby electronics and developng environmental sensors.
+I am John Franco Saraceno. I'm a trained scientist and amateur maker with years of experience building hobby electronics and developing environmental sensors.
 
 - :man_scientist: Working as Quality Assurance Officer[@ca_dwr](https://twitter.com/ca_dwr)
 - :seedling: Learning about open source home automation via [@home_assistant](https://twitter.com/home_assistant)
@@ -16,5 +16,5 @@ I am John Franco Saraceno. I'm a trained scientist and amateur maker with years 
 - :mailbox: Reach me: [@jfsaraceno](https://twitter.com/jfsaraceno) on Twitter or [drop a message on LinkedIn](https://www.linkedin.com/in/john-franco-saraceno-7a780751/)
 
 ##### Want to reach me?
-The best way to reach me is via email is jfsaraceno[at]gmail.com.
+The best way to reach me is via email at jfsaraceno[at]gmail.com.
 
