@@ -12,7 +12,7 @@ I am John Franco Saraceno. I'm a trained scientist and amateur maker with years 
   
 - :construction: Making products via [@arduino](https://twitter.com/arduino)
 
-- :pencil: Writing data science code in [@ThePSF](https://twitter.com/ThePSF)
+- :pencil: Writing data science python code [@ThePSF](https://twitter.com/ThePSF)
   
 - :seedling: Automating the home using [@home_assistant](https://twitter.com/home_assistant)
   
@@ -21,5 +21,5 @@ I am John Franco Saraceno. I'm a trained scientist and amateur maker with years 
 - :mailbox: Reach me: [@jfsaraceno](https://twitter.com/jfsaraceno) on Twitter or [drop a message on LinkedIn](https://www.linkedin.com/in/john-franco-saraceno-7a780751/)
 
 ##### Want to reach me off socials?
-Send me an email at jfsaraceno[at]gmail.com.
+Send me an email at jfsaraceno[at]gmail.com
 
