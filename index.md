@@ -20,7 +20,7 @@ Hello and thanks for stopping by. I'm a scientist and amateur maker with many ye
 
 - :mailbox: Reach me: [@jfsaraceno](https://twitter.com/jfsaraceno) on Twitter or [drop a message on LinkedIn](https://www.linkedin.com/in/john-franco-saraceno-7a780751/)
 
-- :man_technologist: If you would like to know more about me, check out my personal [website](https://john-franco-sarceno.netlify.app) 
+- :man_technologist: If you would like to know more about me, check out my personal [website](https://john-franco-saraceno.netlify.app) 
 ##### Want to reach me off socials?
 Send me an email at jfsaraceno[at]gmail.com
 
