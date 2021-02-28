@@ -6,7 +6,7 @@ feature_text: |
 feature_image: "https://picsum.photos/1300/400?image=989"
 ---
 
-Hello and thanks for stopping by. I'm a scientist and amateur maker with many years of experience building hobby electronics and developing environmental sensors.
+Hello and thanks for stopping by my github.io page. I'm a scientist and amateur maker with many years of experience building hobby electronics and developing environmental sensors.
 
 - :man_scientist: Working as Quality Assurance Officer [@ca_dwr](https://twitter.com/ca_dwr)
   
