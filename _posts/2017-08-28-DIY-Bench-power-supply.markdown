@@ -1,5 +1,5 @@
 ---
-title:  DIY makers multi-output power supply
+title:  A maker's power supply
 categories:
 - General
 excerpt: |
